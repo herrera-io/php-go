@@ -100,9 +100,6 @@ Hello, User!
 
 ```php
 <?php
-```
-
-```sh
 
 use Symfony\Console\Component\Input\InputInterface as In;
 
@@ -140,7 +137,7 @@ task(
 );
 ```
 
-> You may want to read up on what the [Console output][] manager can do.
+> You may want to read up on what the [Console output][] manger can do.
 
 Advanced Functionality
 ----------------------
@@ -205,7 +202,7 @@ you need in your task's parameters:
 
 ```php
 use Herrera\Go\Go;
-use Symfony\Component\Console\Input\InputInterface as In;
+use Symfony\Component\Console\Input\InputInterface ;
 use Symfony\Component\Console\Output\OutputInterface as Out;
 
 task(
